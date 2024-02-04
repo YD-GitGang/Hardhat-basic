@@ -14,7 +14,7 @@ async function main(address: string) {
     console.log(`HelloWorld contract message: ${message} `)
 }
 
-const address = "";
+const address = "0x123456789";
 main(address).catch((error) => {
     console.error(error);
     process.exitCode = 1;
